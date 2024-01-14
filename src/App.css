@@ -1,0 +1,32 @@
+#root {
+  max-width: 1480px;
+  margin: 0 auto;
+}
+
+@media (min-width: 767px) {
+  #root {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+.round_skeletons {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: hsl(200, 20%, 80%);
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.line_skeleton {
+  height: 20px;
+  border-radius: 5px;
+  background-color: hsl(200, 20%, 80%);
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 80%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}

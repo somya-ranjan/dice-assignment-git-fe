@@ -1,0 +1,38 @@
+.sign_in_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  button {
+    background-color: #40a9ff;
+    color: #fff;
+    border-color: #40a9ff;
+    outline-color: #40a9ff;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 20px 100px;
+    border-radius: 10px;
+  }
+}
+.logout_user_btn_container {
+  display: flex;
+  justify-content: end;
+  column-gap: 10px;
+  align-items: center;
+  button {
+    padding: 5px 20px;
+    cursor: pointer;
+    &:nth-child(1) {
+      background-color: #40a9ff;
+      color: #fff;
+      border-color: #40a9ff;
+      outline-color: #40a9ff;
+    }
+    &:nth-child(2) {
+      background-color: red;
+      color: #fff;
+      border-color: red;
+      outline-color: red;
+    }
+  }
+}
